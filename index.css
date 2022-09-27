@@ -1,22 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+#container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 #cube{
     max-width: 150px;
     height: 200px;
-  
 }
 
-button{
+input{
+    display: block;
     border: none;
     background-color: #000;
     color: #fff;
     font-size: 20px;
     padding: 10px;
-    margin: 15px;
+    margin: 1px auto;
     border-radius: 5px;
+    
 }
 
-button:hover{
+input:hover{
     background-color: #7A7A7A;
 }
 
